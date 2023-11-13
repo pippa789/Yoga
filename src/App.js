@@ -1,14 +1,17 @@
-import React from 'react'
-import front from './images/front.jpg'
-import './index.css' 
+import React from 'react';
+
+import './index.css';
+import{BrowserRouter as Router,Switch,Route,Link,Routes}from 'react-router-dom';
+import Home from './pages/Home'
+
 function App() {
   return (
-
-    <div className='container1'>
-      <img className='frontimg' src={front} alt='pucks glen'/>
-      <h1>Catherine Calachi</h1>
-      <h2>Yoga instructor</h2>
-    </div>
+    <Router>
+      <Routes>
+      <Route path="/" element={<Home />}/>
+      </Routes>
+      
+    </Router>
   )
 }
 
