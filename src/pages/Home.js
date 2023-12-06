@@ -1,17 +1,18 @@
 import React from 'react'
-import front from '../images/front.jpg';
+import hero from '../images/hero.jpg';
+import TitleCard from '../components/TitleCard';
+import PrivateCard from '../components/PrivateCard';
+import SoundbathCard from '../components/SoundbathCard';
+import ClassesCard from '../components/ClassesCard';
 function Home() {
   return (
-    <>
-    <section>
-    <img src={front} alt='pucks glen'/>
-    </section>
-    <div className='container1'>
-      <h1>Catherine Calachi</h1>
-      <h2>Yoga instructor</h2>
-    </div>
     
-   </>
+    <div className='container1'>
+    <TitleCard />
+    <PrivateCard  />
+    <SoundbathCard />
+    <ClassesCard />
+    </div>
   )
 }
 
