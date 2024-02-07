@@ -81,6 +81,14 @@ body {
   background-image: url('./images/mountain-mist.jpg');
 }
 
+ .booking-button{
+  grid-column-end: 4;
+  grid-row-end: 3;
+  width: 20px;
+  height: 20px;
+  z-index: 3;
+  background-color: #656a6e;
+}
 
 
 
