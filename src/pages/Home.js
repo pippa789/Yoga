@@ -9,8 +9,9 @@ function Home() {
     
     <div className='container1'>
     <TitleCard />
-    <PrivateCard  />
+    
     <SoundbathCard />
+    <PrivateCard  />
     <ClassesCard />
     </div>
   )
