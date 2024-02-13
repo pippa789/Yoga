@@ -78,7 +78,7 @@ body {
   z-index: 2;
   height: 500px;
   width: 300px;
-  background-image: url('./images/mountain-mist.jpg');
+ background-image: url('./images/mountain-mist.jpg');
 }
 
  .booking-button{
@@ -88,6 +88,12 @@ body {
   height: 20px;
   z-index: 3;
   background-color: #656a6e;
+}
+.class-list{
+  color: black;
+  font-size:25px;
+  padding: 10px;
+  z-index: 3;
 }
 
 
